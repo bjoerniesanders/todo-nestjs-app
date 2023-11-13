@@ -1,0 +1,30 @@
+# VS CODE EXTENSION 'REST Client'
+
+@API_URL = http://localhost:3001/
+
+### create eines ToDos
+POST {{API_URL}}create
+Content-Type: application/json
+
+{
+  "title": "ToDo Programm", 
+  "description": "Erstellen eines Todoprogramms"
+}
+
+### update ToDo
+PUT {{API_URL}}update/{id}
+Content-Type: application/json
+
+{
+  "title": "Aktualisiertes ToDo Programm", 
+  "description": "Erstellen eines erweiterten Todoprogramms"
+}
+
+### delete ToDo
+DELETE {{API_URL}}delete/{id}
+
+### get specific ToDo
+GET {{API_URL}}get/{id}
+
+### get all ToDos
+GET {{API_URL}}get
