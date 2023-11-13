@@ -2,7 +2,7 @@
 
 ## Overview
 
-The ToDo NestJS App is a simple yet powerful to-do list application developed using the NestJS framework. This project serves as an example of a modern RESTful API enabling CRUD (Create, Read, Update, Delete) operations for to-do items.
+The ToDo NestJS App is a simple to-do list application developed using the NestJS framework. This project serves as an example of a modern RESTful API enabling CRUD (Create, Read, Update, Delete) operations for to-do items.
 
 ## Features
 
